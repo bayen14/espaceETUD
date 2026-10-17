@@ -30,3 +30,23 @@ body{
     padding: 30px;
     color: #1e3a8a;
 }
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: #164e63;
+}
+nav li{
+    display: inline-block;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    display: block;
+}
+a:hover{
+    background-color: #0891b2;
+}
+a:focus{
+    border: yellow solid;
+}
