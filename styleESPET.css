@@ -50,3 +50,37 @@ a:hover{
 a:focus{
     border: yellow solid;
 }
+main{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+#s1{
+    flex: 2;
+    background-color: #d1fae5;
+    padding: 20px;
+    border: 1px solid #059669;
+}
+#s2{
+    flex:1;
+    background-color: #fef3c7;
+    padding: 20px;
+    border: 1px solid #d97706;
+}
+h2{
+    margin: 15px;
+    font-size: clamp(1.2rem,4vw,2rem);
+}
+ul{
+    padding: left 25px;
+    margin-bottom :10px;
+    line-height: 1.6;
+}
+footer{
+    background-color: #164e63;
+    color: white;
+    text-align: center;
+    padding: 1.25rem 1rem;
+    font-size: 0.875rem;
+    margin-top:1.25rem ;
+}
